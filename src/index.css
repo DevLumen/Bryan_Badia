@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  /* font-family: "Old Standard TT"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: whitesmoke;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: #dbdbdb; /* color of the tracking area */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #505050; /* color of the scroll thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #6d6d6d; /* color of the scroll thumb on hover */
+  }

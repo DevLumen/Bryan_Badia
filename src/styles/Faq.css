@@ -1,0 +1,32 @@
+#FAQ-header{
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+}
+
+#FAQ-header > p{
+    font-size: 4em;
+    margin-left: .5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+#FAQ-container{
+    height: 80vh;
+    margin-top: 4em;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 700px) {
+    #FAQ-container{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    /* May need to update this after meet the team page is fixed */
+    #FAQ-header{ 
+        height: 25vh;
+    }
+}

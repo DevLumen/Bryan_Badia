@@ -1,0 +1,79 @@
+
+#about-us-header{
+    padding-top: 2%;
+    font-size: 5em;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+#container {
+    width: 75%;
+    height: 85%;
+    max-height: 82.5%;
+}
+
+#about-us-header > p{
+    margin: 0;
+}
+
+#indiv_pic {
+    
+    height: 48%;
+}
+
+#name_socials {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+#linkedin {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+#github {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+#card_text {
+    max-width: max-content;
+}
+
+#about-us-card{
+    height: 72.5vh;
+}
+
+#about-us-card p{
+    color: black;
+}
+
+/*Phone media query*/
+
+@media screen and (max-width: 1070px) {
+    #about-us-description{
+        display: none;
+    }
+    #about-us-card{
+        height: 420px;
+        width: 250px;
+    }
+
+    #about-us{
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-us-header{
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+    }
+}

@@ -1,0 +1,14 @@
+/* .home_button { */
+    /* position: absolute; */
+    /* top: 2vh; */
+    /* left: 0%; */
+    /* margin-right: 2vw; */
+/* } */
+
+/* Phone media query*/
+@media screen and (max-width: 600px) {
+    #logo {
+        height: 3rem !important;
+        width: 3rem !important;
+    }
+}

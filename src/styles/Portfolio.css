@@ -1,0 +1,55 @@
+#portfolio_header {
+    font-size: 5em;
+    letter-spacing: 3pt;
+    margin-left: 5vw;
+    padding-top: 3.5vh;
+    font-weight: 500;
+}
+
+#portfolio_header > p{
+    margin: 0;
+}
+
+#page_container{
+    height: 100vh;
+}
+
+
+#content-title{
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+#content-description{
+    padding: 2%;
+}
+
+#portfolio-cards{
+    display: flex;
+    justify-content: center;
+}
+
+/* Phone media query */
+@media screen and (max-width: 933px) { 
+  #card-text{
+    display: none;
+  }
+
+  #portfolio-card{
+    height: 220px;
+  }
+
+
+  #portfolio_header{
+    margin: 0;
+    padding: 1% 0 0 0;
+    text-align: center;
+  }
+
+  #dashboard{
+    display: none !important;
+  }
+} 
+
