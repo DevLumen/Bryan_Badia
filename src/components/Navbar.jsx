@@ -7,7 +7,6 @@ export default function Navbar() {
 
   return (
     <>
-    {/* this is the navbar component */}
     <div id='dashboard' style={{"display":"flex", 
       "justifyContent": "end", 
       position:"absolute", 
