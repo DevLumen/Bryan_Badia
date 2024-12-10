@@ -20,7 +20,7 @@ export default function Home() {
         <Grid container spacing={4} alignItems='center' justifyContent="center">
           <Grid size={{ xs: 12, sm: 12, md: 6, lg: 6 }} id='left-components'>
             <div id="company-name">
-              <h1 id='company-h1'>Bryan Badia<br></br> Photographer & Videographer</h1>
+              <h1 id='company-h1'>Bryan Badia<br></br> Photography & Videography</h1>
               <hr id='home-line'></hr>
             </div>
 
